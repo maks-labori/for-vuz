@@ -1,41 +1,6 @@
-#include <iostream>
-#include <cmath>
-#include <string>
 
-class Triangle {
-private:
-    double _side;
-    double _height;
-public:
-    Triangle(double side, double height) :_side(side), _height(height) {
-        if (side <= 0 or height <= 0) { throw std::logic_error("side or height > 0"); }
-    }
-    double get_side() {
-        return _side;
-    }
-    double get_height() {
-        return _height;
-    }
-    void set_side(double side) {
-        if (side > 0) {
-            this->_side = side;
-        }
-        else {
-            throw std::logic_error("side > 0");
-        }
-    }
-    void set_height(double height) {
-        if (height > 0) {
-            this->_height = height;
-        }
-        else {
-            throw std::logic_error("height > 0");
-        }
-    }
-    double area() {
-        return (_side * _height)/2;
-    }
-};
+#include "../TriangleLib/Triangle.h"
+
 int main(){
     std::setlocale(LC_ALL, "Russian");
     std::cout << "Ведите стороны треугольника\n";

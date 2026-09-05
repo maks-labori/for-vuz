@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "project for dev", "project for dev.vcxproj", "{9639B4A2-AA0C-4749-B362-A3A8B1D0A085}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TriangleLib", "..\TriangleLib\TriangleLib.vcxproj", "{7170785B-1ADF-4569-8CB0-29F849301929}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{9639B4A2-AA0C-4749-B362-A3A8B1D0A085}.Release|x64.Build.0 = Release|x64
 		{9639B4A2-AA0C-4749-B362-A3A8B1D0A085}.Release|x86.ActiveCfg = Release|Win32
 		{9639B4A2-AA0C-4749-B362-A3A8B1D0A085}.Release|x86.Build.0 = Release|Win32
+		{7170785B-1ADF-4569-8CB0-29F849301929}.Debug|x64.ActiveCfg = Debug|x64
+		{7170785B-1ADF-4569-8CB0-29F849301929}.Debug|x64.Build.0 = Debug|x64
+		{7170785B-1ADF-4569-8CB0-29F849301929}.Debug|x86.ActiveCfg = Debug|Win32
+		{7170785B-1ADF-4569-8CB0-29F849301929}.Debug|x86.Build.0 = Debug|Win32
+		{7170785B-1ADF-4569-8CB0-29F849301929}.Release|x64.ActiveCfg = Release|x64
+		{7170785B-1ADF-4569-8CB0-29F849301929}.Release|x64.Build.0 = Release|x64
+		{7170785B-1ADF-4569-8CB0-29F849301929}.Release|x86.ActiveCfg = Release|Win32
+		{7170785B-1ADF-4569-8CB0-29F849301929}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
