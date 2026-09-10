@@ -1,5 +1,5 @@
 
-#include "../TriangleLib/Triangle.h"
+#include "Triangle.h"
 
 int main(){
     std::setlocale(LC_ALL, "Russian");
